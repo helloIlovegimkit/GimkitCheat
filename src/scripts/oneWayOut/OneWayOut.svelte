@@ -53,4 +53,6 @@
         selector={{ options: { grantedItemId: "shield-can" }}} />
 </Group>
 
+<ToggleButton on:click={togglekillaura} disabled={!enabled} disabledMsg="sentries haven't loaded"
+onText="Stop kill aura" offText="Start kill aura" enabled={false} hotkeyId="killaura" />
             
