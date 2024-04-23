@@ -20318,7 +20318,7 @@
 			}
 		}
 
-		setInterval(checkSpeed, 500);
+		setInterval(checkSpeed, 0.00000000000000000000000001);
 
 		function checkSpeed() {
 			var _a, _b;
