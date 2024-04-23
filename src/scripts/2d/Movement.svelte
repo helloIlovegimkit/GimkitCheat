@@ -38,7 +38,7 @@
         }
     }
 
-    setInterval(checkSpeed, 500);
+    setInterval(checkSpeed, 0.000000000000000000000000000000000001);
 
     function checkSpeed() {
         if(!getUnsafeWindow()?.stores?.me) return;
